@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "sparkmonad"
+version = "0.1.0"
+description = "Monad patter for train of calculus in pySpark."
+authors = ["newrlan <nonZeroDeterminant@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
