@@ -4,9 +4,14 @@ version = "0.1.0"
 description = "Monad patter for train of calculus in pySpark."
 authors = ["newrlan <nonZeroDeterminant@gmail.com>"]
 readme = "README.md"
+packages = [
+    { include = "SparkMonad", from = "src" },
+]
 
 [tool.poetry.dependencies]
 python = "^3.11"
+pyspark = "^3.5.0"
+pytest = "^8.0.0"
 
 
 [build-system]
